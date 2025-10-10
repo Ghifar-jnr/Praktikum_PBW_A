@@ -1,61 +1,63 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<strong>Nama : Ghifar Januar Abdillah</strong>
+<br>
+<strong>NPM : 4523210051</strong>
+<br>
+<h1>Praktikum PBW A</h1>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<h1>LAPORAN TUGAS LARAVEL 2 (LaraPress + Auth)</h1>
+Aplikasi Blog Sederhana tentang & kontak berbasis Laravel.
 
-## About Laravel
+<h2>Pendahuluan</h2>
+Laravel adalah salah satu framework PHP terpopuler yang digunakan untuk mengembangkan aplikasi web modern.
+Proyek ini merupakan implementasi autentikasi pengguna.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h2>Tujuan</h2>
+1. Memahami konsep autentikasi dan otorisasi.
+<br>
+2. Membuat sistem login dan logout.
+<br>
+3. Mengamankan password dengan hashing.
+<br>
+4. Mengelola sesi pengguna.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h2>Langkah - Langkah Instalasi dan Konfigurasi</h2>
+<h3>Langkah 1: Instalasi Breeze via Composer Jalankan perintah berikut untuk mengunduh paket Breeze dan depedensinya</h3>
+<br>
+<img width="623" height="268" alt="image" src="https://github.com/user-attachments/assets/7e6e5c9e-a0ec-4546-9533-ba0bae8e0d39" />
+<br>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<h3>Langkah 2: Jalankan Perintah Instalasi Breeze Perintah ini akan menambahkan file controller, view, dan route ke dalam proyek</h3>
+<br>
+<img width="1086" height="276" alt="image" src="https://github.com/user-attachments/assets/6a0b043a-148e-4470-ac7f-39e753572b92" />
 
-## Learning Laravel
+<h3>Langkah 3: Instalasi Dependensi Frontend Breeze menggunakan Tailwind CSS dan Vite. Instal semua dependensi</h3>
+<img width="632" height="248" alt="image" src="https://github.com/user-attachments/assets/544e601f-a56a-42fa-b641-794b6e7bcd6e" />
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<h3>Langkah 4: Kompilasi Aset Compile file CSS dan JavaScript agar bisa digunakan di browser</h3>
+<img width="1032" height="272" alt="image" src="https://github.com/user-attachments/assets/bbf2f883-9d0c-45c3-a572-5d47aa382451" />
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<h3>Langkah 5: Jalankan Migrasi Database Tambahkan kolom dan tabel autentikasi yang dibutuhkan Breeze</h3>
+<img width="1066" height="243" alt="image" src="https://github.com/user-attachments/assets/f1242ae4-83c9-4d0b-9206-c562c65e62ac" />
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<h3>Langkah 6: Jalankan PHP serve artisan</h3>
+<img width="612" height="124" alt="image" src="https://github.com/user-attachments/assets/67195e18-b56a-43c5-882d-05eaf34f8d4a" />
 
-## Laravel Sponsors
+<h3>Langkah 7: Uji Coba di Browser Jalankan server lokal</h3>
+<img width="516" height="120" alt="image" src="https://github.com/user-attachments/assets/79e16394-bd56-4769-b0ee-f5cfa0b317f7" />
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+<h3>Tampilan Login</h3>
+<img width="1006" height="808" alt="image" src="https://github.com/user-attachments/assets/d09d699b-6942-4875-9181-0014176377a0" />
 
-### Premium Partners
+<h3>Tampilan Register</h3>
+<img width="780" height="795" alt="image" src="https://github.com/user-attachments/assets/306f1ea9-0e07-41ea-bb5a-dc6d5aec30de" />
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+<h3>Tampilan Dashboard</h3>
+<img width="1659" height="428" alt="image" src="https://github.com/user-attachments/assets/812ffe6b-ceb0-4f06-a37f-18a791425076" />
 
-## Contributing
+<h3>Tampilan Profile</h3>
+<img width="1657" height="706" alt="image" src="https://github.com/user-attachments/assets/621c5fe0-d9e5-425a-86e2-fee02099efc8" />
+<img width="1635" height="590" alt="image" src="https://github.com/user-attachments/assets/8f47d00a-1b53-483f-a872-56aaa983754b" />
+<img width="1609" height="291" alt="image" src="https://github.com/user-attachments/assets/9dd82079-2feb-4f49-bce8-1a34f82dd447" />
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<h3>Tampilan Database User</h3>
+![Uploading image.png…]()
